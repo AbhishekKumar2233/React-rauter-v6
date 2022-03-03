@@ -4,10 +4,12 @@ import Event from "./Components/Event";
 import Results from "./Components/Results";
 import Teams from "./Components/Teams";
 import Analytics from "./Components/Analytics";
+import Sidebar from "./Components/Sidebar";
 
 function App() {
   return (
     <div className="App">
+      <Sidebar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/event" element={<Event />} />

@@ -5,7 +5,7 @@ export default function Sidebar() {
   return (
     <ul>
       <li>
-        <Link to="/">Event</Link>
+        <Link to="/event">Event</Link>
       </li>
       <li>
         <Link to="/teams">Teams</Link>
@@ -14,7 +14,7 @@ export default function Sidebar() {
         <Link to="/analytics">Analytics</Link>
       </li>
       <li>
-        <Link to="/result">Results</Link>
+        <Link to="/results">Results</Link>
       </li>
     </ul>
   );
